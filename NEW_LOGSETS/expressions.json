@@ -1,0 +1,29 @@
+{
+  "DIC_EXPRESSAO_CUSTOM" : [ {
+    "$operation" : "UPDATE",
+    "DT_ATUALIZACAO_NREC" : "26/05/2026 09:55:54",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29441",
+    "NM_USUARIO" : "nosawicki",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "nosawicki",
+    "CD_EXPRESSAO" : "344657",
+    "DS_EXPRESSAO" : "pt-br user B",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "26/05/2026 09:55:54"
+  }, {
+    "$operation" : "UPDATE",
+    "DT_ATUALIZACAO_NREC" : "26/05/2026 10:01:56",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29442",
+    "NM_USUARIO" : "nosawicki",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "nosawicki",
+    "CD_EXPRESSAO" : "344657",
+    "DS_EXPRESSAO" : "user B",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "26/05/2026 10:01:56"
+  } ]
+}
