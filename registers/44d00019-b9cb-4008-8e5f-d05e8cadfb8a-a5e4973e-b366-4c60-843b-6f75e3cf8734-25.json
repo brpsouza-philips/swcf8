@@ -1,0 +1,401 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "10/06/2026 15:49:06",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "DELETE",
+      "sequence" : 1050,
+      "table_name" : "DIC_EXPRESSAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "7ca28322-fe94-4af8-a3d6-d84a84bf441f"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "416e933448d7",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 344657
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 344657
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "brpsouza"
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "26/05/2026 10:04:04"
+    }, {
+      "column_name" : "DS_GLOSSARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "Context not supplied."
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "26/05/2026 10:04:04"
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "brpsouza"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "10/06/2026 15:49:06",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "DELETE",
+      "sequence" : 1051,
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "8a3d2d25-43f4-43a9-b0fe-bf95bac08a52"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "416e933448d7",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 29442
+    } ],
+    "column_values" : [ {
+      "column_name" : "IE_SITUACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "A"
+    }, {
+      "column_name" : "DS_LOCALE",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "pt_BR"
+    }, {
+      "column_name" : "DS_IDIOMA",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "pt"
+    }, {
+      "column_name" : "DS_EXPRESSAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "user A"
+    }, {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : "344657"
+    }, {
+      "column_name" : "DS_LAYER",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "CORE.CMDK_LTDA"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 29442
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "26/05/2026 10:01:10"
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "brpsouza"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "26/05/2026 10:03:47"
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "brpsouza"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "10/06/2026 15:49:06",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "sequence" : 700022,
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "1ea0fca0-36be-42b3-b829-364465659c65"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "416e933448d7",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_FN_SOMAR2",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_FN_SOMAR2",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_MEMORIA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "N",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_CRIACAO",
+      "data_type" : "DATE",
+      "new_value" : "10/06/2026 15:49:06",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_APLICACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Tasy",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "brpsouza",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_GERAR_SCRIPT",
+      "data_type" : "VARCHAR2",
+      "new_value" : "S",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "FUNCTION",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_SOMAR2(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nBEGIN\n    RETURN p_num1 + p_num2;\nEND;\n/",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "05/06/2026 16:58:48",
+      "old_value" : null
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10178087,
+      "old_value" : null
+    }, {
+      "column_name" : "IE_CRIPTOGRAFIA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "N",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LAYER",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CORE.CMDK_LTDA",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "10/06/2026 15:49:06",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 700023,
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "1ce25889-bfdb-4c32-9e27-a11619a93f26"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "416e933448d7",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_FN_SOMAR2",
+      "old_value" : "CMDKLTDA_FN_SOMAR2"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_FN_SOMAR2",
+      "old_value" : "CMDKLTDA_FN_SOMAR2"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "FUNCTION",
+      "old_value" : "FUNCTION"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_SOMAR2(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nv number(100);\nBEGIN\nselect nr_sequencia into v from pessoa_fisica where nr_sequencia = 1;\n    RETURN p_num1 + p_num2;\nEND;\n/",
+      "old_value" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_SOMAR2(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nBEGIN\n    RETURN p_num1 + p_num2;\nEND;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10178087,
+      "old_value" : 10178087
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "10/06/2026 15:49:06",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 700024,
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "e7ace432-af44-4d14-904b-2536040fee9a"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "416e933448d7",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_FN_SOMAR2",
+      "old_value" : "CMDKLTDA_FN_SOMAR2"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_FN_SOMAR2",
+      "old_value" : "CMDKLTDA_FN_SOMAR2"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "FUNCTION",
+      "old_value" : "FUNCTION"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_SOMAR2(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nv number(100);\nBEGIN\nselect cd_pessoa_fisicainto v from pessoa_fisica where cd_pessoa_fisica = 100001;\n    RETURN p_num1 + p_num2;\nEND;\n/",
+      "old_value" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_SOMAR2(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nv number(100);\nBEGIN\nselect nr_sequencia into v from pessoa_fisica where nr_sequencia = 1;\n    RETURN p_num1 + p_num2;\nEND;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10178087,
+      "old_value" : 10178087
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "10/06/2026 15:49:06",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 700025,
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "071be4ad-bf14-40c4-8d24-44afb3f786e2"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "416e933448d7",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_FN_SOMAR2",
+      "old_value" : "CMDKLTDA_FN_SOMAR2"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_FN_SOMAR2",
+      "old_value" : "CMDKLTDA_FN_SOMAR2"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "FUNCTION",
+      "old_value" : "FUNCTION"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_SOMAR2(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nv number;\nBEGIN\nselect cd_pessoa_fisica into v from pessoa_fisica where cd_pessoa_fisica = 100001;\n    RETURN p_num1 + p_num2;\nEND;\n/",
+      "old_value" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_SOMAR2(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nv number(100);\nBEGIN\nselect cd_pessoa_fisicainto v from pessoa_fisica where cd_pessoa_fisica = 100001;\n    RETURN p_num1 + p_num2;\nEND;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10178087,
+      "old_value" : 10178087
+    } ]
+  } ]
+}

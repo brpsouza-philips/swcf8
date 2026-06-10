@@ -1,0 +1,14 @@
+{
+  "OBJETO_SISTEMA" : [ {
+    "$operation" : "MERGE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_SOMAR2(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nv number;\nBEGIN\nselect cd_pessoa_fisica into v from pessoa_fisica where cd_pessoa_fisica = 100001;\n    RETURN p_num1 + p_num2;\nEND;\n/",
+    "NR_SEQUENCIA" : "10178087",
+    "NM_USUARIO" : "brpsouza",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "FUNCTION",
+    "DT_ATUALIZACAO" : "05/06/2026 16:58:48",
+    "NM_OBJETO" : "CMDKLTDA_FN_SOMAR2",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
