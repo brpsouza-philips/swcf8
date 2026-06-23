@@ -1,0 +1,36 @@
+{
+  "OBJETO_SISTEMA" : [ {
+    "$operation" : "MERGE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_SOMAR2(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nv number;\nb varchar2;\nBEGIN\nselect cd_pessoa_fisica into v from pessoa_fisica where cd_pessoa_fisica = 100001;\nSELECT cd_estabelecimento into v\n          FROM ATENDIMENTO_PACIENTE\n         WHERE nr_atendimento = 829238;\n    RETURN p_num1 + p_num2;\nEND;\n/",
+    "NR_SEQUENCIA" : "10178087",
+    "NM_USUARIO" : "brpsouza",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "FUNCTION",
+    "DT_ATUALIZACAO" : "05/06/2026 16:58:48",
+    "NM_OBJETO" : "CMDKLTDA_FN_SOMAR2",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_TABELA_RESTRITA(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nv number;\nb varchar2;\nBEGIN\nselect cd_pessoa_fisica into v from pessoa_fisica where cd_pessoa_fisica = 100001;\nSELECT cd_estabelecimento into v\n          FROM ATENDIMENTO_PACIENTE\n         WHERE nr_atendimento = 829238;\n    RETURN p_num1 + p_num2;\nEND;\n/",
+    "NR_SEQUENCIA" : "10178744",
+    "NM_USUARIO" : "brpsouza",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "FUNCTION",
+    "DT_ATUALIZACAO" : "15/06/2026 11:13:52",
+    "NM_OBJETO" : "CMDKLTDA_FN_TABELA_RESTRITA",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE FUNCTION CMDKLTDA_FN_FUNCTION_RESTRITA(\n    p_num1 NUMBER,\n    p_num2 NUMBER\n)\nRETURN NUMBER\nIS\nv number;\nb varchar2;\nBEGIN\nselect cd_pessoa_fisica into v from pessoa_fisica where cd_pessoa_fisica = 100001;\nSELECT cpoe_ds_item_clinical_notes('A') into b\n          FROM dual;\n    RETURN p_num1 + p_num2;\nEND;\n/",
+    "NR_SEQUENCIA" : "10178812",
+    "NM_USUARIO" : "brpsouza",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "FUNCTION",
+    "DT_ATUALIZACAO" : "15/06/2026 14:02:30",
+    "NM_OBJETO" : "CMDKLTDA_FN_FUNCTION_RESTRITA",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
